@@ -197,6 +197,9 @@ whisper_models/
 # Claude Code local state
 .claude/
 
+# Mac-local Docker Compose overrides (platform-specific, not for CI/NVIDIA)
+docker-compose.override.yml
+
 # Beads issue tracker local state
 .beads/
 
